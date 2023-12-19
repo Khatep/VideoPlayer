@@ -1,0 +1,12 @@
+.find__playlist input {
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 25px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+}
+
+input[placeholder] {
+    text-align: center;
+}

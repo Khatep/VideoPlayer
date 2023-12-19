@@ -1,0 +1,95 @@
+* {
+  font-family: monospace, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.mainPage_top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #2c3e50;
+  color: #ecf0f1;
+}
+
+.mainPage_top h3 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.find__playlist input {
+  display: block;
+  margin: 10px auto;
+  width: 250px;
+  height: 25px;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+}
+
+input[placeholder] {
+  text-align: center;
+}
+
+.playlists {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+nav ul li a {
+  line-height: 80px;
+  color: #151515;
+  padding: 12px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: .3s;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  padding: 10px 250px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  background-color: rgb(248, 214, 214);
+}
+
+nav ul li:hover {
+  text-decoration: underline solid;
+}
+
+.generateButton {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px 50px 47%;
+  width: 80px;
+  padding: 10px;
+  font-size: 1.1em;
+  color: #fff;
+  background-color: #2ecc71;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}

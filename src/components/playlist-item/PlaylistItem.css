@@ -1,0 +1,37 @@
+* {
+  font-family: monospace, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.playlists button {
+  margin: 25px 10px 10px 30px;
+  padding: 10px;
+  font-size: 1.1em;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;;
+}
+
+#delete_button {
+  background-color: #f93943;
+}
+
+#delete_button:hover {
+  background-color: #ff6166;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(255, 97, 102, 0.5);
+}
+
+#go_button {
+  background-color: #3498db;
+}
+
+#go_button:hover {
+  background-color: #4ab7ff;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(97, 200, 255, 0.5);
+}

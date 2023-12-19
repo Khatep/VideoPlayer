@@ -1,0 +1,26 @@
+.videoList {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 20px 20px 20px;
+}
+
+.videoBox {
+    display: flex;    
+    margin: 30px 50px 0px 50px;
+}
+
+.videoBox input[type=checkbox]  {
+    align-items: flex-end;
+}
+
+input[type=checkbox] {
+    -webkit-transform: scale(2);
+    /* Safari and Chrome */
+    transform: scale(2);
+    padding: 10px;
+    margin: 10px;
+}
+
+input[placeholder] {
+    text-align: center;
+}

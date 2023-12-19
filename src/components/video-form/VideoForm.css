@@ -1,0 +1,56 @@
+.controlPanel {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.controlPanel #url {
+    width: 350px;
+    height: 35px;
+    margin-right: 10px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+}
+
+.controlPanel button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#moveButton {
+    margin-left: 100px;
+    background-color: #efbf22;
+}
+
+#deleteButton {
+    margin-left: 10px;
+    background-color: #f93943;
+    padding: 10px 20px;
+    border: none;
+    color: #fff;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#deleteButton:hover {
+    background-color: #ff6166;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 97, 102, 0.5);
+}
+
+.addVideoInput {
+    border: 4px #3498db solid !important;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    outline: none;
+}
+
+#addButton {
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}

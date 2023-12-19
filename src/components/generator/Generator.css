@@ -1,0 +1,28 @@
+* {
+  font-family: monospace, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.generateButton {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px 50px 47%;
+  width: 80px;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  color: #fff;
+  background-color: #2ecc71;
+  border: none; 
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.generateButton:hover {
+  background-color: #3bf589;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(46, 204, 113, 0.5);
+}
