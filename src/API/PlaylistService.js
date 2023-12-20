@@ -8,6 +8,8 @@ const data = [
     { id: 4, name: 'Valorant', image: images.valorant, description: 'Online Gaming', videos: ['https://youtu.be/p_EbnbEqnVM?si=pZyn8dRRUWnOst7s', 'https://youtu.be/XfuMEmcz3k0?si=JWgnVWAgVlaYIcKm', 'https://youtu.be/CdZN8PI3MqM?si=JBYdsWm45ekf4h3p'] },
     { id: 5, name: 'Blogs in nature', image: images.sunset, description: 'Vibe', videos: ['https://youtu.be/sr284c-q8oY?si=2RNCfo_aM3BAtCBx', 'https://youtu.be/Dwjb-3NoHuw?si=hVm_6VIy2CSXUKPz', 'https://youtu.be/5uOiLEXKQTc?si=LrCfDjXlBVJpVZ6h'] },
     { id: 6, name: 'CS:GO', image: images.csgo, description: 'Online Gaming', videos: ['https://youtu.be/5uOiLEXKQTc?si=LrCfDjXlBVJpVZ6h', 'https://youtu.be/o9AL6b6SPLc?si=LRuwQPRqXmxeggyf', 'https://youtu.be/edYCtaNueQY?si=iFpPQmjghPT_UtC_'] },
+    { id: 7, name: 'Coding', image: images.code, description: 'IT videos', videos: ['https://youtu.be/TxZwqVTaCmA?si=ou87miI4UmNca4lz', 'https://youtu.be/URg_Q8dclzg?si=mANTeEND9KGWz9NP', 'https://youtu.be/eN9Rpg7BqTM?si=Z0-m2IuiaB5FitA7', 'https://youtu.be/GNrdg3PzpJQ?si=mpKj8rxsCgidYLzE'] }, 
+    { id: 8, name: 'Anime', image: images.anime, description: 'Anime, manga', videos: ['https://youtu.be/F0sqfPkCcyM?si=Iy9V_QoWZAK5_ekV', 'https://youtu.be/S7Lu2YIpYs4?si=GhiHMZO7jo47FPIf', 'https://youtu.be/bo_mkoII-wA?si=KNDH3n5mgCoM9U1r'] }
 ];
 
 export default class PlaylistService {

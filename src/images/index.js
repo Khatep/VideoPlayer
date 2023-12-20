@@ -9,6 +9,8 @@ import sportCar from './Sportcar.jpg';
 import cartoon from './valorant-computer-cartoon-style.jpg';
 import valorant from './Valorant1.jpg';
 import csgo from './CSGO.jpg';
+import code from './get-back-to-code-km-1920x1080.jpg';
+import anime from './samurai-anime-girl-thumb.jpg';
 
 export {
     defImg,
@@ -19,5 +21,7 @@ export {
     sportCar,
     cartoon,
     valorant,
-    csgo
+    csgo,
+    code,
+    anime
 };
