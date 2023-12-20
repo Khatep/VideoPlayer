@@ -15,15 +15,14 @@ const data = [
 export default class PlaylistService {
     static async getAll() {
         try {
-            //enter in cmd: "./my-app/server> node index.mjs" after you can uncomment next lines: 
-            //const responseServer = await axios.get('http://localhost:9090/api/playlists')
-            //return responseServer.data;
-            
-            //Comment the lines below in case you have already done the previous operation
-            const response = await data;
-            return response; 
+            //enter in cmd: "./my-app/server> node index.mjs" for successful loading response from API: 
+            const responseServer = await axios.get('http://localhost:9090/api/playlists', {timeout: 1200});
+            return responseServer.data;
         } catch (e) {
             console.log(e)
+            console.log("Loading from local data...");
+            console.log("Please enter in cmd: ./my-app/server> node index.mjs")
+            return data; 
         }
     }
 }
