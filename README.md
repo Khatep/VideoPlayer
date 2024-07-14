@@ -43,65 +43,66 @@ npm start
 ## Project Structure
 
 ```bash
-video-player-project/
-├── node_modules/...
-├── public/
-│   └── index.html
-├── server/
-│   └── index.mjs
-├── src/
-│   ├── API/
-│   │   └── PlaylistService.js
-│   ├── components/
-│   │   ├── app/
-│   │   │   ├── App.css
-│   │   │   └── App.js
-│   │   ├── generator/
-│   │   │   ├── Generator.css
-│   │   │   └── Generator.jsx
-│   │   ├── main-page/
-│   │   │   ├── MainPage.css
-│   │   │   └── MainPage.jsx
-│   │   ├── playlist-boxes/
-│   │   │   ├── PlaylistBoxes.css
-│   │   │   └── PlaylistBoxes.jsx
-│   │   ├── playlist-form/
-│   │   │   ├── PlaylistForm.css
-│   │   │   └── PlaylistForm.jsx
-│   │   ├── playlist-item/
-│   │   │   ├── PlaylistItem.css
-│   │   │   └── PlaylistItem.jsx
-│   │   ├── playlist-page/
-│   │   │   ├── PlaylistPage.css
-│   │   │   └── PlaylistPage.jsx
-│   │   ├── playlist-search/
-│   │   │   ├── PlaylistSearch.css
-│   │   │   └── PlaylistSearch.jsx
-│   │   ├── video-boxes/
-│   │   │   ├── VideoBoxes.css
-│   │   │   └── VideoBoxes.jsx
-│   │   ├── video-form/
-│   │   │   ├── VideoForm.css
-│   │   │   └── VideoForm.jsx
-│   ├── images/
-│   │   ├── CSGO.jpg
-│   │   ├── degImg.jpg
-│   │   ├── englishl.jpg
-│   │   ├── FBI.jpg
-│   │   ├── get-back-to-code-km-1920x1080
-│   │   ├── GTA-VI/jpg
+VideoPlayer/
+├── video-player-project/
+│   ├── node_modules/...
+│   ├── public/
+│   │   └── index.html
+│   ├── server/
+│   │   └── index.mjs
+│   ├── src/
+│   │   ├── API/
+│   │   │   └── PlaylistService.js
+│   │   ├── components/
+│   │   │   ├── app/
+│   │   │   │   ├── App.css
+│   │   │   │   └── App.js
+│   │   │   ├── generator/
+│   │   │   │   ├── Generator.css
+│   │   │   │   └── Generator.jsx
+│   │   │   ├── main-page/
+│   │   │   │   ├── MainPage.css
+│   │   │   │   └── MainPage.jsx
+│   │   │   ├── playlist-boxes/
+│   │   │   │   ├── PlaylistBoxes.css
+│   │   │   │   └── PlaylistBoxes.jsx
+│   │   │   ├── playlist-form/
+│   │   │   │   ├── PlaylistForm.css
+│   │   │   │   └── PlaylistForm.jsx
+│   │   │   ├── playlist-item/
+│   │   │   │   ├── PlaylistItem.css
+│   │   │   │   └── PlaylistItem.jsx
+│   │   │   ├── playlist-page/
+│   │   │   │   ├── PlaylistPage.css
+│   │   │   │   └── PlaylistPage.jsx
+│   │   │   ├── playlist-search/
+│   │   │   │   ├── PlaylistSearch.css
+│   │   │   │   └── PlaylistSearch.jsx
+│   │   │   ├── video-boxes/
+│   │   │   │   ├── VideoBoxes.css
+│   │   │   │   └── VideoBoxes.jsx
+│   │   │   ├── video-form/
+│   │   │   │   ├── VideoForm.css
+│   │   │   │   └── VideoForm.jsx
+│   │   ├── images/
+│   │   │   ├── CSGO.jpg
+│   │   │   ├── degImg.jpg
+│   │   │   ├── englishl.jpg
+│   │   │   ├── FBI.jpg
+│   │   │   ├── get-back-to-code-km-1920x1080
+│   │   │   ├── GTA-VI/jpg
+│   │   │   ├── index.js
+│   │   │   ├── samurai-anime-girl-thumb.jpg
+│   │   │   ├── Sportcar.jpg
+│   │   │   ├── sunset.jpg
+│   │   │   ├── valorant-computer-cartoon-style.jpg
+│   │   │   ├── Valorant1.jpg
+│   │   ├── index.css
 │   │   ├── index.js
-│   │   ├── samurai-anime-girl-thumb.jpg
-│   │   ├── Sportcar.jpg
-│   │   ├── sunset.jpg
-│   │   ├── valorant-computer-cartoon-style.jpg
-│   │   ├── Valorant1.jpg
-│   ├── index.css
-│   ├── index.js
-│   └── reportWebVitals.js
-├── .gitignore
-├── package.json
-├── package-lock.json
+│   │   └── reportWebVitals.js
+│   ├── .gitignore
+│   ├── package.json
+│   └── package-lock.json
 └── README.md
 ```
 
