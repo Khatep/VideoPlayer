@@ -4,11 +4,20 @@ Hi everyone! This is a simple VideoPlayer app, created on the React framework, i
 
 ## Table of Contents
 
+- [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Roadmap](#roadmap)
 - [Authors](#authors)
+
+## Tech Stack
+
+- React, React-router-dom
+- Node.js
+- JavaScript
+- CSS
+- HTML
 
 ## Installation
 
@@ -121,4 +130,4 @@ Do you have ideas or suggestions for other features? Feel free to [open an issue
 
 ## Authors
 
-### Khatep Nurgali, student of IITU
+### Khatep Nurgali, Student of IITU
